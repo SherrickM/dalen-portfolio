@@ -1,13 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+// import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Nav from './componets/Nav/Nav';
+import Header from './componets/Header/Header'
+// import Socials from './componets/Header/Socials';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    {/* <App /> */}
+    <Header/>
+    <Nav/>
+    {/* <Socials/> */}
+    
   </React.StrictMode>
 );
 

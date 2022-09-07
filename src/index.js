@@ -5,7 +5,8 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import Nav from './componets/Nav/Nav';
 import Header from './componets/Header/Header'
-// import Socials from './componets/Header/Socials';
+import About from './componets/About/About';
+import Portfolio from './componets/Portfolio/Portfolio';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -13,6 +14,8 @@ root.render(
     {/* <App /> */}
     <Header/>
     <Nav/>
+    <About/>
+    <Portfolio/>
     {/* <Socials/> */}
     
   </React.StrictMode>
